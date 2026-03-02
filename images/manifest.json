@@ -7,5 +7,87 @@
             "All images loaded in winnieepm/iiif-practice project"
         ]
     },
-    "items": []
+    "items": [
+        {
+            "id": "https://winnieepm.github.io/iiif-practice/images/bridge-boi/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "bridge-boi"
+                ]
+            },
+            "height": 4032,
+            "width": 2268,
+            "items": [
+                {
+                    "id": "https://winnieepm.github.io/iiif-practice/images/bridge-boi/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://winnieepm.github.io/iiif-practice/images/bridge-boi/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://winnieepm.github.io/iiif-practice/images/bridge-boi/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 71,
+                                                "height": 126
+                                            },
+                                            {
+                                                "width": 142,
+                                                "height": 252
+                                            },
+                                            {
+                                                "width": 284,
+                                                "height": 504
+                                            },
+                                            {
+                                                "width": 567,
+                                                "height": 1008
+                                            },
+                                            {
+                                                "width": 1134,
+                                                "height": 2016
+                                            },
+                                            {
+                                                "width": 2268,
+                                                "height": 4032
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 2268,
+                                        "@id": "https://winnieepm.github.io/iiif-practice/images/bridge-boi",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 4032,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://winnieepm.github.io/iiif-practice/images/bridge-boi/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
