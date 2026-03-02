@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://winnieepm.github.io/iiif-practice/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in winnieepm/iiif-practice project"
+        ]
+    },
+    "items": []
+}
