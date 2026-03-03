@@ -1,0 +1,13 @@
+{
+  "id" : "https://winnieepm.github.io/iiif-practice/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in winnieepm/iiif-practice project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://winnieepm.github.io/iiif-practice/manifests/manifest-test.json",
+    "label" : "[Click to edit label]"
+  } ]
+}
