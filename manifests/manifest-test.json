@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://winnieepm.github.io/iiif-practice/manifests/manifest-test.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://e90cc442-06e3-48ba-9af9-25a7d5f5203d",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://916558a3-9f2c-4d9a-8394-d661d1263edd",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 4032,
+      "width" : 2268,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://bd7efde6-790e-4302-bf49-4670e85959fa",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://winnieepm.github.io/iiif-practice/images/bridge-boi/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://winnieepm.github.io/iiif-practice/images/bridge-boi",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 4032,
+          "width" : 2268
+        },
+        "on" : "http://916558a3-9f2c-4d9a-8394-d661d1263edd"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
